@@ -1,0 +1,3 @@
+selection sort 
+
+sabse phle short Element ko nikalta h and usko fix krta jata hai
