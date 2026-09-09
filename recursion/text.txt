@@ -1,0 +1,53 @@
+recusrrion 
+
+sum of first n numbers 
+
+1)parametrized way 
+f(i,sum){
+  if(i<1){
+    print(sum);
+    return;}
+   f(i-1,sum+i);
+
+}
+
+main(){
+f(n,0)}
+
+
+
+recursion tree: f(3,0) -> f(2,3) -> f(1,5) -> f(0,6)
+
+
+2) functional 
+
+f(n){
+  if(n==0){
+    return 0;
+}
+  return n+f(n-1);}
+
+main(){
+print(f(n));
+}
+
+print all subsequence 
+it can be contiguous or non contiguous 
+sequence which follows the order 
+
+
+arr - [3 1 2]
+3 
+1 
+2
+3 1
+1 2
+3 2 
+3 1 2 
+
+but this is not 3 2 1 
+
+
+
+in every question we will first always check a base case
+
